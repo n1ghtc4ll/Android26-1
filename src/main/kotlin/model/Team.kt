@@ -1,5 +1,3 @@
 package model
 
-class Team(val name: String, val city: String) {
-    val players = mutableListOf<Player>()
-}
+data class Team(val name: String, val city: String)

@@ -1,6 +1,6 @@
 package model
 
-enum class Position(name: String) {
+enum class Position(val positionName: String) {
     DEFENDER("Защитник"),
     FORWARD("Нападающий"),
     GOALKEEPER("Вратарь"),

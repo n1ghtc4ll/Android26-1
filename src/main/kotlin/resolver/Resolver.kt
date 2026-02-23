@@ -19,7 +19,7 @@ class Resolver(val playerList: List<Player>) : IResolver {
         return playerList.filter { it.nationality == "Germany" }
             .maxBy { it.transferCost }
             .position
-            .name
+            .positionName
     }
 
     override fun getTheRudestTeam(): Team {
